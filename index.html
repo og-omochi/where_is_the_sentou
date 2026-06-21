@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhereSentou - どこの銭湯へ？</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif; background: #0a0a0a; color: #fff; }
+
+    header {
+      text-align: center;
+      padding: 80px 24px 60px;
+      background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+    }
+    .icon { font-size: 80px; display: block; margin-bottom: 24px; }
+    h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.5px; }
+    h1 span { color: #ff9500; }
+    .subtitle { margin-top: 12px; font-size: 1.1rem; color: #888; }
+
+    .badge {
+      display: inline-block;
+      margin-top: 36px;
+    }
+    .badge img { height: 52px; }
+
+    section { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .feature {
+      background: #1a1a1a;
+      border-radius: 16px;
+      padding: 28px 20px;
+      text-align: center;
+      border: 1px solid #2a2a2a;
+    }
+    .feature .emoji { font-size: 36px; display: block; margin-bottom: 12px; }
+    .feature h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+    .feature p { font-size: 0.85rem; color: #888; line-height: 1.6; }
+
+    h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 28px; text-align: center; }
+
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      border-top: 1px solid #1a1a1a;
+      color: #555;
+      font-size: 0.85rem;
+    }
+    footer a { color: #ff9500; text-decoration: none; margin: 0 12px; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="icon">♨</span>
+  <h1>Where<span>Sentou</span></h1>
+  <p class="subtitle">どこの銭湯へ？ — 近くの銭湯をランダムにナビ</p>
+  <div class="badge">
+    <a href="https://apps.apple.com/jp/app/wheresentou/id6744875793" target="_blank">
+      <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="App Store からダウンロード">
+    </a>
+  </div>
+</header>
+
+<section>
+  <h2>主な機能</h2>
+  <div class="features">
+    <div class="feature">
+      <span class="emoji">🗺️</span>
+      <h3>銭湯マップ</h3>
+      <p>周辺の銭湯をまとめてマップ表示。OpenStreetMapのデータで全国対応。</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">🎯</span>
+      <h3>ランダムナビ</h3>
+      <p>「どこでもいい」そんな日に。近くの銭湯をランダムにピックアップしてナビ開始。</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">📍</span>
+      <h3>訪問記録</h3>
+      <p>行った銭湯を記録して、自分だけの銭湯マップを作ろう。</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">👥</span>
+      <h3>コミュニティ</h3>
+      <p>マップにない銭湯は自分で追加。みんなで情報をアップデート。</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">🏆</span>
+      <h3>月間ランキング</h3>
+      <p>今月いちばん銭湯に行ったのは誰？ みんなで競おう。</p>
+    </div>
+    <div class="feature">
+      <span class="emoji">⌚</span>
+      <h3>Apple Watch 対応</h3>
+      <p>ナビの進捗を手元でチェック。</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用規約</a>
+  </p>
+  <p style="margin-top: 16px;">© 2025 WhereSentou. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
